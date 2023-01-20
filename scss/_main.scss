@@ -1,0 +1,316 @@
+    
+// variables 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comic+Neue:wght@700&family=Fredoka+One&display=swap');
+$welcome-font: 'Fredoka One', cursive;
+$content-font:'Archivo Black', sans-serif;
+$darkgreen:#a4ffa1;
+$lightpurpleColor: #888dda;
+$lightgreen: #ddfdd2;
+$colorFooterNav: #5015bd;
+$colorTextomaintitulo:#2038a6;
+$colorTextomain: #3751c5;
+
+//---------------------------------------------------------INDEX-----------------------------------------------------------
+
+//------------------Banner--------------
+main {
+     .bg-perzonalizado-welcome {
+        background-color: $darkgreen;
+        border-radius: 2px;
+
+        //MEDIAQUERYS
+        @include mobile{
+            display:none !important;
+        }
+        @include mobile375{
+            display:none !important;
+        }
+        @include mobile425{
+            display:none !important;
+        }    
+    }  
+    h1 {
+        margin-left: 200px;
+        color:$colorFooterNav;
+        font-size: 45px;
+        font-family: $welcome-font;
+       
+        //MEDIAQUERYS
+        @include tablet{
+            margin-left: 5px;
+            font-size: 35px;
+            text-align: center;
+        }    
+    }
+
+//-----------------Content------------------
+
+    div {
+        .bg-section1{
+            background-color: $lightgreen;
+         }
+        
+        h2 { //TEXTO PRINCIPAL
+            font-family: $content-font;
+            padding-top: 150px;
+            text-align: left;
+            font-size: 50px;
+            color: #2038a6;
+
+            //MEDIAQUERYS
+            @include mobile{
+             text-align: center !important;
+             padding-top: 80px !important;
+             font-size: 45px !important;
+          
+            }  
+            @include mobile375{
+                text-align: center !important;
+                padding-top: 70px !important;
+                font-size: 45px !important;
+             
+               } 
+            @include mobile425{
+                text-align: center !important;
+                padding-top: 60px !important;
+                font-size: 45px !important;
+             
+               }    
+            
+            @include tablet{
+                padding-top: 80px;
+                font-size: 55px;
+             
+               } 
+        }
+        
+        h4 {//TEXTO
+            font-family: $content-font;
+            text-align: left;
+            font-size: 30px;
+            color: #3751c5; 
+            @include mobile{
+                font-size:25px;
+                text-align: center;
+            }
+
+            @include mobile375{
+                font-size:30px;
+                text-align: center;
+               }
+            @include mobile425{
+                font-size:30px;
+                text-align: center;
+               }
+  
+        }
+        div img{ //IMAGEN DE COHETE
+            //---MEDIAQUERYS----
+            margin: 0;
+            @include tablet{
+                width: 500px;
+                height: 500px;
+                margin-left: 100px;
+            } 
+            @include mobile425 {
+                width: 350px !important;
+                height: 350px !important;
+                margin-left: 30px !important;
+            }
+            @include mobile375 {
+                width: 320px !important;
+                height: 320px !important;
+                margin-left: 20px !important;
+            }
+            @include mobile{
+                width: 280px !important;
+                height: 280px !important;
+                margin-left: 15px !important;
+            }  
+        }
+    }    
+}
+
+//-----------------------------------------------------CONTACTO----------------------------------------------
+
+//-----------Formulario------------
+.form {
+    margin-top:30px;
+    margin-bottom: 15px;
+    height: 75vh;
+    //MEDIAQUERYS
+    @include mobile {
+        height: 122vh !important;
+    }
+    @include mobile375 {
+        height: 125vh !important;
+    }
+    @include mobile425 {
+        height: 130vh !important;
+    }
+       
+    form{
+    background-color: #ddfdd2;   
+    border-radius: 10px;
+    border: 15px solid #4fe488 ;
+    @include mobile {
+        border: 5px solid #4fe488 ;
+    }
+    @include mobile375 {
+        border: 10px solid #4fe488 ;
+    }
+    @include mobile425 {
+        border: 10px solid #4fe488 ;
+    }
+     label {
+        font-family:$navfooter-font; 
+        color:$colorFooterNav;
+        }
+
+        .btn{
+        background-color:$colorFooterNav;    
+        font-family:$navfooter-font;
+        }
+    }
+}
+
+//----------------------------------------------PRINCIPIANTE/BEGINNER--------------------------------------------
+
+//-------VERBOS--------
+// banner
+#mostUsedVerbBeginner{  
+@include bannerVerbos;
+}
+//Content
+#ContenidoVerbosBeginner { 
+@include cards;
+}
+
+//--------FRASES----------
+
+//banner
+#usefulPhrasesBeginner {
+    @include bannerPhrases; 
+    }
+//content
+#mainUsefulPhrasesBeginner {
+    height: 670% !important;
+    
+    //MEDIAQUERYS
+    @include tablet { }
+    @include mobile425 { }
+    @include mobile375 {
+    height:3310px !important;
+    }
+    @include mobile {
+    height:2900px !important;  
+    }
+
+@include mainPhrases;
+@include carruseles;
+}
+
+
+
+//----------------------------------------------INTERMEDIO/INTERMEDIATE--------------------------------------------
+
+//-------------VERBOS----------
+//Banner
+#mostUsedVerbIntermediate{
+    @include bannerVerbos;
+ }
+//Content
+#ContenidoVerbosIntermediate {
+    @include cards;
+    }
+    
+//-------------FRASES----------
+    
+//Banner
+#usefulPhrasesIntermediate {
+    @include bannerPhrases;  
+    }
+//Content
+#mainUsefulPhrasesIntermediate{
+    height: 694% !important;
+
+    //MEDIAQUERYS
+    @include tablet {
+        height:4100px !important;
+     }
+    @include mobile425 { 
+        height:3950px !important;
+    }
+    @include mobile375 {
+    height:3650px !important;
+    }
+    @include mobile {
+    height:3100px !important;  
+    }
+@include mainPhrases;
+@include carruseles;
+
+}
+ 
+
+
+//-------------------------------------------------AVANZADO/ADVANCED-----------------------------------------------------------
+
+//-------------VERBOS----------
+//Banner
+#mostUsedVerbAdvanced{
+    @include bannerVerbos;
+    }
+//Content
+#ContenidoVerbosAdvanced {
+    @include cards;
+    } 
+
+//-------------FRASES----------
+    
+//Banner
+#usefulPhrasesAdvanced {
+    @include bannerPhrases;
+    }
+//Content
+#mainUsefulPhrasesAdvanced {
+    height: 772% !important;
+    //MEDIAQUERYS
+    @include tablet { 
+        height:4450px !important;
+    }
+    @include mobile425 { 
+        height:4450px !important;
+    }
+    @include mobile375 {
+    height:3900px !important;
+    }
+    @include mobile {
+    height:3550px !important;  
+    }
+
+@include mainPhrases;
+@include carruseles;
+
+}
+
+
+//-------------------------------------------------ERRROR 404-------------------------------------------------------------------    
+.Error404{
+    
+        //MEDIAQUERYS
+        @include tablet { 
+            height:185% !important;
+        }
+        @include mobile425 { 
+            height:165% !important;
+        }
+        @include mobile375 {
+            height:145% !important;
+        }
+        @include mobile {
+            height:120% !important;  
+            }   
+       
+}
+

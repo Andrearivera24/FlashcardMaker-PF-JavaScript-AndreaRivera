@@ -1,0 +1,601 @@
+
+//----------------------------------------------MIXINS PARA LOS BANNERS EN PRIN/INT/AVAN--------------------------------------------------------------------
+
+//------------------VERBOS-----------------
+@mixin bannerVerbos {
+    div {
+        div{
+           img {
+                width: 60px;
+                height: 60px;
+                margin-left: 190px;
+
+                //MEDIAQUERYS
+                @include tablet {
+                    margin-left:50px;          
+                } 
+                @include mobile425 {
+                    margin-left:20px;
+                    width: 60px !important;
+                    height: 60px !important; 
+                } 
+                @include mobile375 {
+                    margin-left:20px;
+                    width: 60px !important;
+                    height: 60px !important;               
+                } 
+                @include mobile {
+                    margin-left:20px;
+                    width: 60px !important;
+                    height: 60px !important;                  
+                } 
+                  
+            }
+        }  
+        div{
+            background-color: $darkgreen;
+            border-radius: 2px;
+                   
+            h1{ 
+                padding-top: 10px;
+                margin-left:0;
+                //MEDIAQUERYS
+                @include mobile425 {
+                    display: none;
+                 } @include mobile375 {
+                    display: none;
+                 } 
+                @include mobile {
+                    display: none;
+                 } 
+            }
+        }
+    }
+}
+//---------------------FRASES------------------
+@mixin bannerPhrases { 
+    div { //fila
+     
+        div{ //columna
+            background-color: $darkgreen;
+            border-radius: 2px;     
+            h1{ 
+                padding-left:200px;
+                //MEDIAQUERYS
+                @include tablet {
+                    padding-left:5px;
+                    text-align: center;
+                    }
+               
+                @include mobile425 {
+                padding-left:5px;
+                text-align: center;
+               
+                }
+            } 
+        }      
+    }
+    }
+  
+
+//-----------------------------------------------MIXIN PARA MAIN--------------------------------------------------------------------
+@mixin mainPhrases {
+    background-color:$lightgreen;
+
+   div{ //FILA
+      div{ //COLUMNA
+       background-color:$lightgreen;
+      } 
+   }
+}
+
+@mixin mainLessons {
+    background-color:$lightgreen;
+    div{ //FILA
+       div{ //COLUMNA
+        background-color: $lightgreen;
+       } 
+    }
+}
+
+//----------------------MIXIN CARDS-----------------------
+
+
+@mixin cards {
+    .flashcards {
+        .row { //  FILA
+          .bg-section1 { //  COLUMNA
+           .card {
+           position: relative;
+           width: 300px;
+           height: 350px;
+           margin: 20px;
+
+                //MEDIAQUERYS
+                @include tablet {
+                 width: 200px;
+                  height: 250px;          
+                                }       
+           &.is-flipped {
+               .front{
+               transform: perspective(600px) rotateY(180deg);
+               }
+               .back{
+                transform: perspective(600px) rotateY(360deg);
+               }         
+           }    
+               .face{
+               position: absolute;
+               width: 100%;
+               height: 100%;
+               backface-visibility: hidden;
+               border-radius: 10px;
+               overflow: hidden;
+               transition: .5s;
+           }
+               .front{
+               transform: perspective(600px) rotateY(0deg);
+                   img{
+                       position: absolute;
+                       width: 100%;
+                       height: 100%;
+                       object-fit: cover !important;
+
+                       //MEDIAQUERYS
+                       @include tablet {
+                           margin: 0;                     
+                       }
+                       @include mobile425 {
+                           margin: 0 !important;
+                       }
+                       @include mobile375 {
+                           margin: 0 !important;
+                       }
+                       @include mobile {
+                           margin: 0 !important;
+                       }
+                      
+                   }
+                   h3{
+                       position: absolute;
+                       bottom: 0;
+                       width: 100%;
+                       height: 45px;
+                       padding: 0 !important;
+                       line-height: 45px;
+                       font-family: $navfooter-font;
+                       color: #fff;
+                       background: rgba(59, 18, 170, 0.4);
+                       text-align: center !important; 
+                   }
+           }
+               .back{
+               transform: perspective(600px) rotateY(180deg);
+               background: $colorFooterNav;
+               padding: 0;
+               margin: 0;
+               color: #f3f3f3;
+               display: flex;
+               flex-direction: column;
+               justify-content: space-between;
+               text-align: center;    
+                   .link{
+                   border-top: solid 1px #f3f3f3;
+                   height: 50px;
+                   line-height: 50px;
+                   
+                   //MEDIAQUERYS
+                   @include tablet {
+                       line-height: 15px;
+                       height: 40px;
+                   }
+                   @include mobile425 {
+                       line-height: 15px;
+                       height: 40px;
+                   }
+                   @include mobile375 {
+                       line-height: 15px;
+                       height: 40px;
+                   }
+                   @include mobile {
+                       line-height: 15px;
+                       height: 40px;
+                   }
+                   //
+
+                .btn-Conjugaciones{
+                    margin-bottom: 5px;
+                    padding-top: 4px;
+                    background-color: rgba(173, 90, 240, 0.596);
+                    color: #f3f3f3;
+                    font-family: $navfooter-font;
+                    text-decoration: none;
+                    font-size: 13px;
+
+                    //MEDIAQUERYS
+                   @include tablet {
+                    padding-top: 2px;    
+                    font-size: 12px;
+                    height: 22px;
+                    
+                    margin-bottom: 1px;
+                    }
+                    @include mobile425 {
+                        padding-top: 2px;    
+                        font-size: 12px;
+                        height: 22px;
+                        margin-bottom: 1px;
+                    }
+                    @include mobile375 {
+                        padding-top: 2px;    
+                        font-size: 12px;
+                        height: 22px;
+                        margin-bottom: 1px;
+                    }
+                    @include mobile {
+                    padding-top: 2px;    
+                    font-size: 12px;
+                    height: 22px;
+                    margin-bottom: 1px;
+                     }
+                    //
+
+                    &:hover{
+                    background-color: rgba(239, 125, 243, 0.671);  
+                    }
+                }                     
+                   }
+       
+                   h3{
+                   font-size: 30px !important;
+                   font-family:$navfooter-font !important;
+                   margin-top: 20px;
+                   letter-spacing: 2px;
+                   //MEDIAQUERYS
+                   @include tablet {
+                       font-size: 25px;
+                       margin-top: 1px;
+                       letter-spacing: 1px;
+                       
+                   }
+                   @include mobile425 {
+                       font-size: 25px;
+                       margin-top: 1px;
+                       letter-spacing: 1px;
+                   }
+                   @include mobile375 {
+                       font-size: 25px;
+                       margin-top: 1px;
+                       letter-spacing: 1px;
+                   }
+                   @include mobile {
+                       font-size: 25px;
+                       margin-top: 1px;
+                       letter-spacing: 1px;
+                   }
+                   //
+                   
+                   }
+                   p{
+                   
+                   color: white !important;
+                   font-size: 20px !important;
+                   letter-spacing: 1px !important;
+                   font-family:$navfooter-font !important;
+                   
+
+                   //MEDIAQUERYS
+                   @include tablet {
+                       font-size: 15px !important;
+                   
+                   
+                       
+                   }
+                   @include mobile425 {
+                       font-size: 15px !important;
+                       
+                   }
+                   @include mobile375 {
+                       font-size: 15px !important;
+                       
+                   }
+                   @include mobile {
+                       font-size: 15px !important;
+                   }
+                   //
+                   }
+                   a{
+                    color: white;
+                    text-decoration: none;
+                    font-family:$navfooter-font ;
+                   }
+
+                 }
+          
+               }
+            }
+         }
+    }
+}
+
+//--------------------MIXIN CARRUSELES--------------------
+
+@mixin carruseles {
+    .carruseles{
+        margin: 0;
+          //MEDIAQUERYS
+          @include tablet {
+           padding: 0px 0px !important;                  
+         }
+           @include mobile425 {
+             padding: 0px 0px !important;            
+         }
+           @include mobile375 {
+             padding: 0px 0px !important;          
+         }
+            @include mobile {
+             padding: 0px 0px !important;
+                      
+         }
+
+        .col{
+               margin-bottom: 100px;
+                           //MEDIAQUERYS
+                           @include tablet {
+                             margin-bottom: 120px !important;              
+                           }
+                             @include mobile425 {
+                               margin-bottom: 120px !important;
+                           }
+                             @include mobile375 {
+                               margin-bottom: 120px !important;                               
+                           }
+                              @include mobile {  
+                               margin-bottom: 120px !important;                              
+                           }
+                           //
+               .container{
+                 background-color:$colorFooterNav;
+                 width: 600px;
+                 height: 350px;
+                 padding: 10px;
+                 border-radius: 5px;
+   
+                 //MEDIAQUERYS
+                 @include tablet {
+                   width: 440px !important;
+                   height: 257px !important;
+                   padding:3px !important;
+                   border-radius: 5px !important;
+                              
+               }
+                 @include mobile425 {
+                   width: 390px !important;
+                   height: 228px !important;
+                   padding:3px !important;
+                   border-radius: 5px !important;
+                 
+               }
+                 @include mobile375 {
+                   width: 340px !important;
+                   height: 199px !important;
+                   padding:3px !important;
+                   border-radius: 5px !important;                   
+               }
+                  @include mobile {                   
+                   width: 280px !important;
+                   height: 163px !important;
+                   padding:3px !important;
+                   border-radius: 5px !important;
+                 
+                  
+               }
+                 //
+   
+               //-----ESTILOS DE LOS BOTONES SLIDER---- 
+                 .menu{
+                   text-align: center;
+                   margin-left: 350px;
+                 //MEDIAQUERYS
+                 @include tablet {
+                   margin: 0 !important;
+                   padding-left: 0 !important;
+                   margin-top: 55px !important;
+   
+                 }
+                   @include mobile425 {
+                     margin: 0 !important;
+                     padding-left: 0 !important;
+                     margin-top: 35px !important;
+                    
+                 }
+                   @include mobile375 {
+                     margin: 0 !important;
+                     padding-left: 0 !important;
+                     margin-top: 35px !important;
+                     
+                 }
+                    @include mobile {
+                     margin: 0 !important;
+                     padding-left: 0 !important;
+                     margin-top: 30px !important;
+                    
+                 }
+                 //
+     
+                   li{
+                       display: inline-block;
+                       text-align: center;
+                       
+                       a{
+                           display: inline-block;
+                           color:$darkgreen; 
+                           text-decoration: none;
+                           background-color:$colorFooterNav;
+                           padding: 5px;
+                           width: 35px;
+                           height: 35px;
+                           font-size: 18px;
+                           font-family:$navfooter-font;
+                           border-radius: 100%;
+
+                           //MEDIAQUERYS
+                           @include tablet {}
+                             @include mobile425 {
+                               padding: 4px;
+                               width: 32px;
+                               height: 32px;
+                               font-size: 17px;
+                               margin-top: 10px;                             
+                           }
+                             @include mobile375 {
+                               padding: 4px;
+                               width: 30px;
+                               height: 30px;
+                               font-size: 16px;
+                               margin-top: 10px;
+                               
+                           }
+                              @include mobile {
+                               padding: 4px;
+                               width: 27px;
+                               height: 27px;
+                               font-size: 14px;                               
+                           }
+                           //
+   
+                           &:hover{
+                               background-color:$darkgreen;
+                               color:$colorFooterNav;     
+                               }
+                      
+                       }
+                   }
+   
+               }
+          //-----SLIDER DE IMAGENES---------------
+                 ul.slider {
+                   position:relative;
+                   width:600px;
+                   height:350px;
+   
+                  //MEDIAQUERYS
+                 @include tablet {
+                   width: 440px !important;
+                   height: 257px !important;
+                 }
+                   @include mobile425 {
+                     width: 390px !important;
+                     height: 228px !important;                    
+                 }
+                   @include mobile375 {
+                     width: 340px !important;
+                     height: 199px !important;   
+                 }
+                    @include mobile {
+                     width: 280px !important;
+                     height: 163px !important;   
+                 }
+                 //                  
+                    li{
+                       position: absolute;
+                       left: 0;
+                       top:0;
+                       opacity: 0;
+                       width: inherit;
+                       height: inherit;
+                       transition: opacity .5s;                     
+                       audio{
+                           width: 280px;
+                           height: 40px;
+                           margin-top: 15px;
+
+                           //MEDIAQUERYS
+                             @include tablet {
+                               width: 440px;
+                               margin-top: 10px !important;
+                                             }
+                             @include mobile425 {
+                               width: 390px; 
+                               height: 38px !important;
+                               margin-top: 4px !important;
+                     
+                                                 }
+                             @include mobile375 {
+                               width: 340px; 
+                               height: 35px !important;
+                               margin-top: 3px !important;
+                     
+                                                }
+                             @include mobile {
+                             width: 280px !important; 
+                              height: 25px !important;
+                              margin-top: 1px !important;
+                             }
+                            //
+                           }
+                   
+                    } 
+
+                    //-----------EFECTO DE OPACIDAD--------
+                    li:first-child {
+                       opacity: 1;
+                     }
+                    li:target {
+                       opacity: 1;
+                    }
+                
+                 }
+                    //--------------------------------------
+                 ul {
+                   li{
+                       margin: 0;
+                       padding: 0;
+                       list-style: none;
+                   }
+                 }           
+               }
+               img { //IMAGEN CON LA FRASE
+                 width: 100%;
+                 height: 350px;
+                 object-fit: cover;
+                 border-radius: 5px;
+                  //MEDIAQUERYS
+                   @include tablet {
+                     width:440px !important;
+                     height:257px !important;
+                     margin-left: 1px !important;
+          
+      
+                    }
+                   @include mobile425 {
+                     width:390px !important;
+                     height:228px !important;
+                     margin-left: 1px !important;
+            
+                                     }
+                   @include mobile375 {
+                     width:340px !important;
+                     height:199px !important;
+                     margin-left: 1px !important;
+                                       }
+                   @include mobile {
+                    width:280px !important;
+                    height:163px !important;
+                    margin-left: 1px !important;
+                
+            }
+                 
+              }
+           }
+       }
+    
+}
+//-------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+

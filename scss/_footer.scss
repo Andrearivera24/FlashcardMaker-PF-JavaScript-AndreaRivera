@@ -1,0 +1,72 @@
+// variables 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+$navfooter-font:'Comic Neue', cursive;
+$colorFooterNav: #5015bd;
+
+footer {
+    height: 25vh;
+    width: 100vw;
+    background-color:$colorFooterNav;
+    bottom: 0;
+    @include mobile {
+        height: 25vh;
+    }
+   
+    div{
+        .btn{
+            background-color:$darkgreen!important;
+            color:$colorFooterNav !important;
+            margin: 15px !important;
+            margin-left: 620px !important;
+            font-family:  $navfooter-font !important;
+            border: none !important;
+            &:hover{
+                background-color:$lightpurpleColor!important;
+
+            }
+                //MEDIAQUERYS
+    @include tablet { 
+        margin-left: 310px !important;
+    }
+    @include mobile425 { 
+        margin-left: 155px !important;
+    }
+    @include mobile375 {
+        margin-left: 130px !important;
+    }
+    @include mobile {
+        margin-left: 105px !important;
+
+    
+    }
+        }
+        @include mobile {
+            width:320px;
+            height:30px;
+        }
+     
+    }
+    div {
+        @include mobile {
+            width:320px;
+            height:35px;
+        } 
+        p{
+            padding-top: 45px !important;
+            color: white !important;
+            font-size: 15px !important;
+            margin-top:25px;
+            font-family:$navfooter-font;
+            text-align: center;
+            
+            
+           
+        }
+    }
+  
+}
+
+
+
+
+

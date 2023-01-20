@@ -1,0 +1,91 @@
+// variables 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+$welcome-font: 'Fredoka One', cursive;
+$navfooter-font:'Comic Neue', cursive;
+$content-font:'Archivo Black', sans-serif;
+$colorFooterNav: #5015bd;
+$lightpurpleColor: #888dda;
+$lightgreen: #ddfdd2;
+$darkgreen:#a4ffa1;
+$colorTextomainphrases: #7a52c4;
+$textomainresaltado:#8b33dd;
+
+//---------Banner-----------------
+#bannerLanguageTranslator{
+    background-color: $darkgreen;
+    padding: 5px;
+    border-radius: 5px;
+    h1{
+        text-align: center;
+        margin:auto
+    }
+   
+}
+
+//-----Main con el traductor--------
+#mainLanguageTranslator{
+ background-color: $lightgreen;
+ padding-top: 50px;
+ padding-bottom: 50px;
+
+
+  .container{ //caja
+    width: 800px;
+    height: 435px;
+    background: #d3fcc6;
+    box-shadow: 0px 2px 4px 0px rgba(39, 6, 66, 0.459);
+    border-radius: 5px;
+    .header {
+        margin:auto;
+        height: 65px;
+        select{
+            border: none;
+            margin: auto;
+            background: #d3fcc6;
+            color: $colorFooterNav;
+        }
+        button{
+            border: none;
+            margin: auto;
+            background-color: #d3fcc6;
+            color: $colorFooterNav;
+        }
+    
+    }
+    .containerTextArea{ //acá es donde escribirá el input 
+    
+        textarea{
+            margin:20px;
+            padding: 15px;
+            width: 360px;
+            height: 270px;
+            background: #f8fdf7c9;
+            border: solid 2px #f8fdf7c9;;
+            box-shadow: 0px 2px 4px 0px rgba(39, 6, 66, 0.459);
+            font-family: $navfooter-font;
+            font-size: 20px;
+            color: rgb(49, 41, 49);
+
+            &:focus{
+                outline: #a4ffa1;
+            }
+        }
+        .translate{ //botón de translate
+            border: none;
+            width: 130px;
+            height: 40px;
+            margin-left: 320px;
+            border-radius: 3px;
+            background-color: $colorFooterNav;
+            color:$darkgreen;
+            font-family: $navfooter-font;
+            &:hover{
+                background-color: $darkgreen;
+                color:$colorFooterNav; 
+            }
+            
+        }
+
+    }
+  }
+}

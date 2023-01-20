@@ -1,0 +1,2066 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comic+Neue:wght@700&family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0; }
+
+body {
+  background-image: url(../assets/images/fondo.jpg);
+  background-position: center;
+  height: 100vh;
+  width: 100vw; }
+  @media screen and (max-width: 320px) {
+    body {
+      height: 800px; } }
+  @media screen and (max-width: 320px) {
+    body br {
+      display: none; } }
+
+.header320 {
+  height: 10vh;
+  width: 100vw; }
+  @media screen and (max-width: 320px) {
+    .header320 {
+      height: 56px; } }
+  @media screen and (max-width: 768px) {
+    .header320 {
+      height: 56px; } }
+  .header320 .bg-personalizado {
+    background-color: #5015bd; }
+    @media screen and (max-width: 320px) {
+      .header320 .bg-personalizado .container-fluid .navbar-toggler {
+        margin-right: 25px; } }
+    .header320 .bg-personalizado .container-fluid .logoHeader img {
+      width: 40px;
+      height: 40px;
+      border-radius: 80%;
+      margin-left: 100px;
+      margin-right: 50px; }
+      @media screen and (max-width: 320px) {
+        .header320 .bg-personalizado .container-fluid .logoHeader img {
+          margin: 0; } }
+      @media screen and (max-width: 768px) {
+        .header320 .bg-personalizado .container-fluid .logoHeader img {
+          margin: 0; } }
+    .header320 .bg-personalizado .container-fluid a {
+      font-family: "Comic Neue", cursive;
+      font-size: 20px; }
+      @media screen and (max-width: 320px) {
+        .header320 .bg-personalizado .container-fluid a {
+          margin-right: 100px; } }
+    .header320 .bg-personalizado .container-fluid #navbarNavDropdown .bg-personalizado2 {
+      background-color: #888dda; }
+
+.headerCards {
+  height: 10vh;
+  width: 100vw; }
+  @media screen and (max-width: 320px) {
+    .headerCards {
+      height: 50px; } }
+  .headerCards .bg-personalizado {
+    background-color: #5015bd;
+    z-index: 1; }
+    @media screen and (max-width: 320px) {
+      .headerCards .bg-personalizado .container-fluid .navbar-toggler {
+        margin-right: 25px; } }
+    @media screen and (max-width: 768px) {
+      .headerCards .bg-personalizado .container-fluid .navbar-toggler {
+        margin-right: 2px; } }
+    .headerCards .bg-personalizado .container-fluid .logoHeader img {
+      width: 40px;
+      height: 40px;
+      border-radius: 80%;
+      margin-left: 100px;
+      margin-right: 50px; }
+      @media screen and (max-width: 320px) {
+        .headerCards .bg-personalizado .container-fluid .logoHeader img {
+          margin: 0; } }
+      @media screen and (max-width: 768px) {
+        .headerCards .bg-personalizado .container-fluid .logoHeader img {
+          margin: 0; } }
+    .headerCards .bg-personalizado .container-fluid a {
+      font-family: "Comic Neue", cursive;
+      font-size: 20px; }
+      @media screen and (max-width: 320px) {
+        .headerCards .bg-personalizado .container-fluid a {
+          margin-right: 100px; } }
+    .headerCards .bg-personalizado .container-fluid #navbarNavDropdown .bg-personalizado2 {
+      background-color: #888dda; }
+
+main .bg-perzonalizado-welcome {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  @media screen and (max-width: 320px) {
+    main .bg-perzonalizado-welcome {
+      display: none !important; } }
+  @media screen and (max-width: 375px) {
+    main .bg-perzonalizado-welcome {
+      display: none !important; } }
+  @media screen and (max-width: 425px) {
+    main .bg-perzonalizado-welcome {
+      display: none !important; } }
+
+main h1 {
+  margin-left: 200px;
+  color: #5015bd;
+  font-size: 45px;
+  font-family: "Fredoka One", cursive; }
+  @media screen and (max-width: 768px) {
+    main h1 {
+      margin-left: 5px;
+      font-size: 35px;
+      text-align: center; } }
+
+main div .bg-section1 {
+  background-color: #ddfdd2; }
+
+main div h2 {
+  font-family: "Archivo Black", sans-serif;
+  padding-top: 150px;
+  text-align: left;
+  font-size: 50px;
+  color: #2038a6; }
+  @media screen and (max-width: 320px) {
+    main div h2 {
+      text-align: center !important;
+      padding-top: 80px !important;
+      font-size: 45px !important; } }
+  @media screen and (max-width: 375px) {
+    main div h2 {
+      text-align: center !important;
+      padding-top: 70px !important;
+      font-size: 45px !important; } }
+  @media screen and (max-width: 425px) {
+    main div h2 {
+      text-align: center !important;
+      padding-top: 60px !important;
+      font-size: 45px !important; } }
+  @media screen and (max-width: 768px) {
+    main div h2 {
+      padding-top: 80px;
+      font-size: 55px; } }
+
+main div h4 {
+  font-family: "Archivo Black", sans-serif;
+  text-align: left;
+  font-size: 30px;
+  color: #3751c5; }
+  @media screen and (max-width: 320px) {
+    main div h4 {
+      font-size: 25px;
+      text-align: center; } }
+  @media screen and (max-width: 375px) {
+    main div h4 {
+      font-size: 30px;
+      text-align: center; } }
+  @media screen and (max-width: 425px) {
+    main div h4 {
+      font-size: 30px;
+      text-align: center; } }
+
+main div div img {
+  margin: 0; }
+  @media screen and (max-width: 768px) {
+    main div div img {
+      width: 500px;
+      height: 500px;
+      margin-left: 100px; } }
+  @media screen and (max-width: 425px) {
+    main div div img {
+      width: 350px !important;
+      height: 350px !important;
+      margin-left: 30px !important; } }
+  @media screen and (max-width: 375px) {
+    main div div img {
+      width: 320px !important;
+      height: 320px !important;
+      margin-left: 20px !important; } }
+  @media screen and (max-width: 320px) {
+    main div div img {
+      width: 280px !important;
+      height: 280px !important;
+      margin-left: 15px !important; } }
+
+.form {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  height: 75vh; }
+  @media screen and (max-width: 320px) {
+    .form {
+      height: 122vh !important; } }
+  @media screen and (max-width: 375px) {
+    .form {
+      height: 125vh !important; } }
+  @media screen and (max-width: 425px) {
+    .form {
+      height: 130vh !important; } }
+  .form form {
+    background-color: #ddfdd2;
+    border-radius: 10px;
+    border: 15px solid #4fe488; }
+    @media screen and (max-width: 320px) {
+      .form form {
+        border: 5px solid #4fe488; } }
+    @media screen and (max-width: 375px) {
+      .form form {
+        border: 10px solid #4fe488; } }
+    @media screen and (max-width: 425px) {
+      .form form {
+        border: 10px solid #4fe488; } }
+    .form form label {
+      font-family: "Comic Neue", cursive;
+      color: #5015bd; }
+    .form form .btn {
+      background-color: #5015bd;
+      font-family: "Comic Neue", cursive; }
+
+#mostUsedVerbBeginner div div img {
+  width: 60px;
+  height: 60px;
+  margin-left: 190px; }
+  @media screen and (max-width: 768px) {
+    #mostUsedVerbBeginner div div img {
+      margin-left: 50px; } }
+  @media screen and (max-width: 425px) {
+    #mostUsedVerbBeginner div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+  @media screen and (max-width: 375px) {
+    #mostUsedVerbBeginner div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+  @media screen and (max-width: 320px) {
+    #mostUsedVerbBeginner div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+
+#mostUsedVerbBeginner div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #mostUsedVerbBeginner div div h1 {
+    padding-top: 10px;
+    margin-left: 0; }
+    @media screen and (max-width: 425px) {
+      #mostUsedVerbBeginner div div h1 {
+        display: none; } }
+    @media screen and (max-width: 375px) {
+      #mostUsedVerbBeginner div div h1 {
+        display: none; } }
+    @media screen and (max-width: 320px) {
+      #mostUsedVerbBeginner div div h1 {
+        display: none; } }
+
+#ContenidoVerbosBeginner .flashcards .row .bg-section1 .card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 20px; }
+  @media screen and (max-width: 768px) {
+    #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card {
+      width: 200px;
+      height: 250px; } }
+  #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card.is-flipped .front {
+    transform: perspective(600px) rotateY(180deg); }
+  #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card.is-flipped .back {
+    transform: perspective(600px) rotateY(360deg); }
+  #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s; }
+  #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .front {
+    transform: perspective(600px) rotateY(0deg); }
+    #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .front img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover !important; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .front img {
+          margin: 0; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .front img {
+          margin: 0 !important; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .front img {
+          margin: 0 !important; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .front img {
+          margin: 0 !important; } }
+    #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .front h3 {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 45px;
+      padding: 0 !important;
+      line-height: 45px;
+      font-family: "Comic Neue", cursive;
+      color: #fff;
+      background: rgba(59, 18, 170, 0.4);
+      text-align: center !important; }
+  #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: #5015bd;
+    padding: 0;
+    margin: 0;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; }
+    #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back .link {
+      border-top: solid 1px #f3f3f3;
+      height: 50px;
+      line-height: 50px; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+        margin-bottom: 5px;
+        padding-top: 4px;
+        background-color: rgba(173, 90, 240, 0.596);
+        color: #f3f3f3;
+        font-family: "Comic Neue", cursive;
+        text-decoration: none;
+        font-size: 13px; }
+        @media screen and (max-width: 768px) {
+          #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        @media screen and (max-width: 425px) {
+          #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        @media screen and (max-width: 375px) {
+          #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        @media screen and (max-width: 320px) {
+          #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones:hover {
+          background-color: rgba(239, 125, 243, 0.671); }
+    #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back h3 {
+      font-size: 30px !important;
+      font-family: "Comic Neue", cursive !important;
+      margin-top: 20px;
+      letter-spacing: 2px; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+    #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back p {
+      color: white !important;
+      font-size: 20px !important;
+      letter-spacing: 1px !important;
+      font-family: "Comic Neue", cursive !important; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+    #ContenidoVerbosBeginner .flashcards .row .bg-section1 .card .back a {
+      color: white;
+      text-decoration: none;
+      font-family: "Comic Neue", cursive; }
+
+#usefulPhrasesBeginner div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #usefulPhrasesBeginner div div h1 {
+    padding-left: 200px; }
+    @media screen and (max-width: 768px) {
+      #usefulPhrasesBeginner div div h1 {
+        padding-left: 5px;
+        text-align: center; } }
+    @media screen and (max-width: 425px) {
+      #usefulPhrasesBeginner div div h1 {
+        padding-left: 5px;
+        text-align: center; } }
+
+#mainUsefulPhrasesBeginner {
+  height: 670% !important;
+  background-color: #ddfdd2; }
+  @media screen and (max-width: 375px) {
+    #mainUsefulPhrasesBeginner {
+      height: 3310px !important; } }
+  @media screen and (max-width: 320px) {
+    #mainUsefulPhrasesBeginner {
+      height: 2900px !important; } }
+  #mainUsefulPhrasesBeginner div div {
+    background-color: #ddfdd2; }
+  #mainUsefulPhrasesBeginner .carruseles {
+    margin: 0; }
+    @media screen and (max-width: 768px) {
+      #mainUsefulPhrasesBeginner .carruseles {
+        padding: 0px 0px !important; } }
+    @media screen and (max-width: 425px) {
+      #mainUsefulPhrasesBeginner .carruseles {
+        padding: 0px 0px !important; } }
+    @media screen and (max-width: 375px) {
+      #mainUsefulPhrasesBeginner .carruseles {
+        padding: 0px 0px !important; } }
+    @media screen and (max-width: 320px) {
+      #mainUsefulPhrasesBeginner .carruseles {
+        padding: 0px 0px !important; } }
+    #mainUsefulPhrasesBeginner .carruseles .col {
+      margin-bottom: 100px; }
+      @media screen and (max-width: 768px) {
+        #mainUsefulPhrasesBeginner .carruseles .col {
+          margin-bottom: 120px !important; } }
+      @media screen and (max-width: 425px) {
+        #mainUsefulPhrasesBeginner .carruseles .col {
+          margin-bottom: 120px !important; } }
+      @media screen and (max-width: 375px) {
+        #mainUsefulPhrasesBeginner .carruseles .col {
+          margin-bottom: 120px !important; } }
+      @media screen and (max-width: 320px) {
+        #mainUsefulPhrasesBeginner .carruseles .col {
+          margin-bottom: 120px !important; } }
+      #mainUsefulPhrasesBeginner .carruseles .col .container {
+        background-color: #5015bd;
+        width: 600px;
+        height: 350px;
+        padding: 10px;
+        border-radius: 5px; }
+        @media screen and (max-width: 768px) {
+          #mainUsefulPhrasesBeginner .carruseles .col .container {
+            width: 440px !important;
+            height: 257px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        @media screen and (max-width: 425px) {
+          #mainUsefulPhrasesBeginner .carruseles .col .container {
+            width: 390px !important;
+            height: 228px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        @media screen and (max-width: 375px) {
+          #mainUsefulPhrasesBeginner .carruseles .col .container {
+            width: 340px !important;
+            height: 199px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        @media screen and (max-width: 320px) {
+          #mainUsefulPhrasesBeginner .carruseles .col .container {
+            width: 280px !important;
+            height: 163px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        #mainUsefulPhrasesBeginner .carruseles .col .container .menu {
+          text-align: center;
+          margin-left: 350px; }
+          @media screen and (max-width: 768px) {
+            #mainUsefulPhrasesBeginner .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 55px !important; } }
+          @media screen and (max-width: 425px) {
+            #mainUsefulPhrasesBeginner .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 35px !important; } }
+          @media screen and (max-width: 375px) {
+            #mainUsefulPhrasesBeginner .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 35px !important; } }
+          @media screen and (max-width: 320px) {
+            #mainUsefulPhrasesBeginner .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 30px !important; } }
+          #mainUsefulPhrasesBeginner .carruseles .col .container .menu li {
+            display: inline-block;
+            text-align: center; }
+            #mainUsefulPhrasesBeginner .carruseles .col .container .menu li a {
+              display: inline-block;
+              color: #a4ffa1;
+              text-decoration: none;
+              background-color: #5015bd;
+              padding: 5px;
+              width: 35px;
+              height: 35px;
+              font-size: 18px;
+              font-family: "Comic Neue", cursive;
+              border-radius: 100%; }
+              @media screen and (max-width: 425px) {
+                #mainUsefulPhrasesBeginner .carruseles .col .container .menu li a {
+                  padding: 4px;
+                  width: 32px;
+                  height: 32px;
+                  font-size: 17px;
+                  margin-top: 10px; } }
+              @media screen and (max-width: 375px) {
+                #mainUsefulPhrasesBeginner .carruseles .col .container .menu li a {
+                  padding: 4px;
+                  width: 30px;
+                  height: 30px;
+                  font-size: 16px;
+                  margin-top: 10px; } }
+              @media screen and (max-width: 320px) {
+                #mainUsefulPhrasesBeginner .carruseles .col .container .menu li a {
+                  padding: 4px;
+                  width: 27px;
+                  height: 27px;
+                  font-size: 14px; } }
+              #mainUsefulPhrasesBeginner .carruseles .col .container .menu li a:hover {
+                background-color: #a4ffa1;
+                color: #5015bd; }
+        #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider {
+          position: relative;
+          width: 600px;
+          height: 350px; }
+          @media screen and (max-width: 768px) {
+            #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider {
+              width: 440px !important;
+              height: 257px !important; } }
+          @media screen and (max-width: 425px) {
+            #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider {
+              width: 390px !important;
+              height: 228px !important; } }
+          @media screen and (max-width: 375px) {
+            #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider {
+              width: 340px !important;
+              height: 199px !important; } }
+          @media screen and (max-width: 320px) {
+            #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider {
+              width: 280px !important;
+              height: 163px !important; } }
+          #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider li {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            width: inherit;
+            height: inherit;
+            transition: opacity .5s; }
+            #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider li audio {
+              width: 280px;
+              height: 40px;
+              margin-top: 15px; }
+              @media screen and (max-width: 768px) {
+                #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider li audio {
+                  width: 440px;
+                  margin-top: 10px !important; } }
+              @media screen and (max-width: 425px) {
+                #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider li audio {
+                  width: 390px;
+                  height: 38px !important;
+                  margin-top: 4px !important; } }
+              @media screen and (max-width: 375px) {
+                #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider li audio {
+                  width: 340px;
+                  height: 35px !important;
+                  margin-top: 3px !important; } }
+              @media screen and (max-width: 320px) {
+                #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider li audio {
+                  width: 280px !important;
+                  height: 25px !important;
+                  margin-top: 1px !important; } }
+          #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider li:first-child {
+            opacity: 1; }
+          #mainUsefulPhrasesBeginner .carruseles .col .container ul.slider li:target {
+            opacity: 1; }
+        #mainUsefulPhrasesBeginner .carruseles .col .container ul li {
+          margin: 0;
+          padding: 0;
+          list-style: none; }
+      #mainUsefulPhrasesBeginner .carruseles .col img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 5px; }
+        @media screen and (max-width: 768px) {
+          #mainUsefulPhrasesBeginner .carruseles .col img {
+            width: 440px !important;
+            height: 257px !important;
+            margin-left: 1px !important; } }
+        @media screen and (max-width: 425px) {
+          #mainUsefulPhrasesBeginner .carruseles .col img {
+            width: 390px !important;
+            height: 228px !important;
+            margin-left: 1px !important; } }
+        @media screen and (max-width: 375px) {
+          #mainUsefulPhrasesBeginner .carruseles .col img {
+            width: 340px !important;
+            height: 199px !important;
+            margin-left: 1px !important; } }
+        @media screen and (max-width: 320px) {
+          #mainUsefulPhrasesBeginner .carruseles .col img {
+            width: 280px !important;
+            height: 163px !important;
+            margin-left: 1px !important; } }
+
+#mostUsedVerbIntermediate div div img {
+  width: 60px;
+  height: 60px;
+  margin-left: 190px; }
+  @media screen and (max-width: 768px) {
+    #mostUsedVerbIntermediate div div img {
+      margin-left: 50px; } }
+  @media screen and (max-width: 425px) {
+    #mostUsedVerbIntermediate div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+  @media screen and (max-width: 375px) {
+    #mostUsedVerbIntermediate div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+  @media screen and (max-width: 320px) {
+    #mostUsedVerbIntermediate div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+
+#mostUsedVerbIntermediate div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #mostUsedVerbIntermediate div div h1 {
+    padding-top: 10px;
+    margin-left: 0; }
+    @media screen and (max-width: 425px) {
+      #mostUsedVerbIntermediate div div h1 {
+        display: none; } }
+    @media screen and (max-width: 375px) {
+      #mostUsedVerbIntermediate div div h1 {
+        display: none; } }
+    @media screen and (max-width: 320px) {
+      #mostUsedVerbIntermediate div div h1 {
+        display: none; } }
+
+#ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 20px; }
+  @media screen and (max-width: 768px) {
+    #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card {
+      width: 200px;
+      height: 250px; } }
+  #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card.is-flipped .front {
+    transform: perspective(600px) rotateY(180deg); }
+  #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card.is-flipped .back {
+    transform: perspective(600px) rotateY(360deg); }
+  #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s; }
+  #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .front {
+    transform: perspective(600px) rotateY(0deg); }
+    #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .front img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover !important; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .front img {
+          margin: 0; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .front img {
+          margin: 0 !important; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .front img {
+          margin: 0 !important; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .front img {
+          margin: 0 !important; } }
+    #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .front h3 {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 45px;
+      padding: 0 !important;
+      line-height: 45px;
+      font-family: "Comic Neue", cursive;
+      color: #fff;
+      background: rgba(59, 18, 170, 0.4);
+      text-align: center !important; }
+  #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: #5015bd;
+    padding: 0;
+    margin: 0;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; }
+    #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back .link {
+      border-top: solid 1px #f3f3f3;
+      height: 50px;
+      line-height: 50px; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+        margin-bottom: 5px;
+        padding-top: 4px;
+        background-color: rgba(173, 90, 240, 0.596);
+        color: #f3f3f3;
+        font-family: "Comic Neue", cursive;
+        text-decoration: none;
+        font-size: 13px; }
+        @media screen and (max-width: 768px) {
+          #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        @media screen and (max-width: 425px) {
+          #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        @media screen and (max-width: 375px) {
+          #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        @media screen and (max-width: 320px) {
+          #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones:hover {
+          background-color: rgba(239, 125, 243, 0.671); }
+    #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back h3 {
+      font-size: 30px !important;
+      font-family: "Comic Neue", cursive !important;
+      margin-top: 20px;
+      letter-spacing: 2px; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+    #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back p {
+      color: white !important;
+      font-size: 20px !important;
+      letter-spacing: 1px !important;
+      font-family: "Comic Neue", cursive !important; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+    #ContenidoVerbosIntermediate .flashcards .row .bg-section1 .card .back a {
+      color: white;
+      text-decoration: none;
+      font-family: "Comic Neue", cursive; }
+
+#usefulPhrasesIntermediate div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #usefulPhrasesIntermediate div div h1 {
+    padding-left: 200px; }
+    @media screen and (max-width: 768px) {
+      #usefulPhrasesIntermediate div div h1 {
+        padding-left: 5px;
+        text-align: center; } }
+    @media screen and (max-width: 425px) {
+      #usefulPhrasesIntermediate div div h1 {
+        padding-left: 5px;
+        text-align: center; } }
+
+#mainUsefulPhrasesIntermediate {
+  height: 694% !important;
+  background-color: #ddfdd2; }
+  @media screen and (max-width: 768px) {
+    #mainUsefulPhrasesIntermediate {
+      height: 4100px !important; } }
+  @media screen and (max-width: 425px) {
+    #mainUsefulPhrasesIntermediate {
+      height: 3950px !important; } }
+  @media screen and (max-width: 375px) {
+    #mainUsefulPhrasesIntermediate {
+      height: 3650px !important; } }
+  @media screen and (max-width: 320px) {
+    #mainUsefulPhrasesIntermediate {
+      height: 3100px !important; } }
+  #mainUsefulPhrasesIntermediate div div {
+    background-color: #ddfdd2; }
+  #mainUsefulPhrasesIntermediate .carruseles {
+    margin: 0; }
+    @media screen and (max-width: 768px) {
+      #mainUsefulPhrasesIntermediate .carruseles {
+        padding: 0px 0px !important; } }
+    @media screen and (max-width: 425px) {
+      #mainUsefulPhrasesIntermediate .carruseles {
+        padding: 0px 0px !important; } }
+    @media screen and (max-width: 375px) {
+      #mainUsefulPhrasesIntermediate .carruseles {
+        padding: 0px 0px !important; } }
+    @media screen and (max-width: 320px) {
+      #mainUsefulPhrasesIntermediate .carruseles {
+        padding: 0px 0px !important; } }
+    #mainUsefulPhrasesIntermediate .carruseles .col {
+      margin-bottom: 100px; }
+      @media screen and (max-width: 768px) {
+        #mainUsefulPhrasesIntermediate .carruseles .col {
+          margin-bottom: 120px !important; } }
+      @media screen and (max-width: 425px) {
+        #mainUsefulPhrasesIntermediate .carruseles .col {
+          margin-bottom: 120px !important; } }
+      @media screen and (max-width: 375px) {
+        #mainUsefulPhrasesIntermediate .carruseles .col {
+          margin-bottom: 120px !important; } }
+      @media screen and (max-width: 320px) {
+        #mainUsefulPhrasesIntermediate .carruseles .col {
+          margin-bottom: 120px !important; } }
+      #mainUsefulPhrasesIntermediate .carruseles .col .container {
+        background-color: #5015bd;
+        width: 600px;
+        height: 350px;
+        padding: 10px;
+        border-radius: 5px; }
+        @media screen and (max-width: 768px) {
+          #mainUsefulPhrasesIntermediate .carruseles .col .container {
+            width: 440px !important;
+            height: 257px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        @media screen and (max-width: 425px) {
+          #mainUsefulPhrasesIntermediate .carruseles .col .container {
+            width: 390px !important;
+            height: 228px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        @media screen and (max-width: 375px) {
+          #mainUsefulPhrasesIntermediate .carruseles .col .container {
+            width: 340px !important;
+            height: 199px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        @media screen and (max-width: 320px) {
+          #mainUsefulPhrasesIntermediate .carruseles .col .container {
+            width: 280px !important;
+            height: 163px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        #mainUsefulPhrasesIntermediate .carruseles .col .container .menu {
+          text-align: center;
+          margin-left: 350px; }
+          @media screen and (max-width: 768px) {
+            #mainUsefulPhrasesIntermediate .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 55px !important; } }
+          @media screen and (max-width: 425px) {
+            #mainUsefulPhrasesIntermediate .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 35px !important; } }
+          @media screen and (max-width: 375px) {
+            #mainUsefulPhrasesIntermediate .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 35px !important; } }
+          @media screen and (max-width: 320px) {
+            #mainUsefulPhrasesIntermediate .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 30px !important; } }
+          #mainUsefulPhrasesIntermediate .carruseles .col .container .menu li {
+            display: inline-block;
+            text-align: center; }
+            #mainUsefulPhrasesIntermediate .carruseles .col .container .menu li a {
+              display: inline-block;
+              color: #a4ffa1;
+              text-decoration: none;
+              background-color: #5015bd;
+              padding: 5px;
+              width: 35px;
+              height: 35px;
+              font-size: 18px;
+              font-family: "Comic Neue", cursive;
+              border-radius: 100%; }
+              @media screen and (max-width: 425px) {
+                #mainUsefulPhrasesIntermediate .carruseles .col .container .menu li a {
+                  padding: 4px;
+                  width: 32px;
+                  height: 32px;
+                  font-size: 17px;
+                  margin-top: 10px; } }
+              @media screen and (max-width: 375px) {
+                #mainUsefulPhrasesIntermediate .carruseles .col .container .menu li a {
+                  padding: 4px;
+                  width: 30px;
+                  height: 30px;
+                  font-size: 16px;
+                  margin-top: 10px; } }
+              @media screen and (max-width: 320px) {
+                #mainUsefulPhrasesIntermediate .carruseles .col .container .menu li a {
+                  padding: 4px;
+                  width: 27px;
+                  height: 27px;
+                  font-size: 14px; } }
+              #mainUsefulPhrasesIntermediate .carruseles .col .container .menu li a:hover {
+                background-color: #a4ffa1;
+                color: #5015bd; }
+        #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider {
+          position: relative;
+          width: 600px;
+          height: 350px; }
+          @media screen and (max-width: 768px) {
+            #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider {
+              width: 440px !important;
+              height: 257px !important; } }
+          @media screen and (max-width: 425px) {
+            #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider {
+              width: 390px !important;
+              height: 228px !important; } }
+          @media screen and (max-width: 375px) {
+            #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider {
+              width: 340px !important;
+              height: 199px !important; } }
+          @media screen and (max-width: 320px) {
+            #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider {
+              width: 280px !important;
+              height: 163px !important; } }
+          #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider li {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            width: inherit;
+            height: inherit;
+            transition: opacity .5s; }
+            #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider li audio {
+              width: 280px;
+              height: 40px;
+              margin-top: 15px; }
+              @media screen and (max-width: 768px) {
+                #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider li audio {
+                  width: 440px;
+                  margin-top: 10px !important; } }
+              @media screen and (max-width: 425px) {
+                #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider li audio {
+                  width: 390px;
+                  height: 38px !important;
+                  margin-top: 4px !important; } }
+              @media screen and (max-width: 375px) {
+                #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider li audio {
+                  width: 340px;
+                  height: 35px !important;
+                  margin-top: 3px !important; } }
+              @media screen and (max-width: 320px) {
+                #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider li audio {
+                  width: 280px !important;
+                  height: 25px !important;
+                  margin-top: 1px !important; } }
+          #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider li:first-child {
+            opacity: 1; }
+          #mainUsefulPhrasesIntermediate .carruseles .col .container ul.slider li:target {
+            opacity: 1; }
+        #mainUsefulPhrasesIntermediate .carruseles .col .container ul li {
+          margin: 0;
+          padding: 0;
+          list-style: none; }
+      #mainUsefulPhrasesIntermediate .carruseles .col img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 5px; }
+        @media screen and (max-width: 768px) {
+          #mainUsefulPhrasesIntermediate .carruseles .col img {
+            width: 440px !important;
+            height: 257px !important;
+            margin-left: 1px !important; } }
+        @media screen and (max-width: 425px) {
+          #mainUsefulPhrasesIntermediate .carruseles .col img {
+            width: 390px !important;
+            height: 228px !important;
+            margin-left: 1px !important; } }
+        @media screen and (max-width: 375px) {
+          #mainUsefulPhrasesIntermediate .carruseles .col img {
+            width: 340px !important;
+            height: 199px !important;
+            margin-left: 1px !important; } }
+        @media screen and (max-width: 320px) {
+          #mainUsefulPhrasesIntermediate .carruseles .col img {
+            width: 280px !important;
+            height: 163px !important;
+            margin-left: 1px !important; } }
+
+#mostUsedVerbAdvanced div div img {
+  width: 60px;
+  height: 60px;
+  margin-left: 190px; }
+  @media screen and (max-width: 768px) {
+    #mostUsedVerbAdvanced div div img {
+      margin-left: 50px; } }
+  @media screen and (max-width: 425px) {
+    #mostUsedVerbAdvanced div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+  @media screen and (max-width: 375px) {
+    #mostUsedVerbAdvanced div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+  @media screen and (max-width: 320px) {
+    #mostUsedVerbAdvanced div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+
+#mostUsedVerbAdvanced div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #mostUsedVerbAdvanced div div h1 {
+    padding-top: 10px;
+    margin-left: 0; }
+    @media screen and (max-width: 425px) {
+      #mostUsedVerbAdvanced div div h1 {
+        display: none; } }
+    @media screen and (max-width: 375px) {
+      #mostUsedVerbAdvanced div div h1 {
+        display: none; } }
+    @media screen and (max-width: 320px) {
+      #mostUsedVerbAdvanced div div h1 {
+        display: none; } }
+
+#ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 20px; }
+  @media screen and (max-width: 768px) {
+    #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card {
+      width: 200px;
+      height: 250px; } }
+  #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card.is-flipped .front {
+    transform: perspective(600px) rotateY(180deg); }
+  #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card.is-flipped .back {
+    transform: perspective(600px) rotateY(360deg); }
+  #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s; }
+  #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .front {
+    transform: perspective(600px) rotateY(0deg); }
+    #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .front img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover !important; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .front img {
+          margin: 0; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .front img {
+          margin: 0 !important; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .front img {
+          margin: 0 !important; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .front img {
+          margin: 0 !important; } }
+    #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .front h3 {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 45px;
+      padding: 0 !important;
+      line-height: 45px;
+      font-family: "Comic Neue", cursive;
+      color: #fff;
+      background: rgba(59, 18, 170, 0.4);
+      text-align: center !important; }
+  #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: #5015bd;
+    padding: 0;
+    margin: 0;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; }
+    #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back .link {
+      border-top: solid 1px #f3f3f3;
+      height: 50px;
+      line-height: 50px; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back .link {
+          line-height: 15px;
+          height: 40px; } }
+      #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+        margin-bottom: 5px;
+        padding-top: 4px;
+        background-color: rgba(173, 90, 240, 0.596);
+        color: #f3f3f3;
+        font-family: "Comic Neue", cursive;
+        text-decoration: none;
+        font-size: 13px; }
+        @media screen and (max-width: 768px) {
+          #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        @media screen and (max-width: 425px) {
+          #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        @media screen and (max-width: 375px) {
+          #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        @media screen and (max-width: 320px) {
+          #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones {
+            padding-top: 2px;
+            font-size: 12px;
+            height: 22px;
+            margin-bottom: 1px; } }
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back .link .btn-Conjugaciones:hover {
+          background-color: rgba(239, 125, 243, 0.671); }
+    #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back h3 {
+      font-size: 30px !important;
+      font-family: "Comic Neue", cursive !important;
+      margin-top: 20px;
+      letter-spacing: 2px; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back h3 {
+          font-size: 25px;
+          margin-top: 1px;
+          letter-spacing: 1px; } }
+    #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back p {
+      color: white !important;
+      font-size: 20px !important;
+      letter-spacing: 1px !important;
+      font-family: "Comic Neue", cursive !important; }
+      @media screen and (max-width: 768px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+      @media screen and (max-width: 425px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+      @media screen and (max-width: 375px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+      @media screen and (max-width: 320px) {
+        #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back p {
+          font-size: 15px !important; } }
+    #ContenidoVerbosAdvanced .flashcards .row .bg-section1 .card .back a {
+      color: white;
+      text-decoration: none;
+      font-family: "Comic Neue", cursive; }
+
+#usefulPhrasesAdvanced div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #usefulPhrasesAdvanced div div h1 {
+    padding-left: 200px; }
+    @media screen and (max-width: 768px) {
+      #usefulPhrasesAdvanced div div h1 {
+        padding-left: 5px;
+        text-align: center; } }
+    @media screen and (max-width: 425px) {
+      #usefulPhrasesAdvanced div div h1 {
+        padding-left: 5px;
+        text-align: center; } }
+
+#mainUsefulPhrasesAdvanced {
+  height: 772% !important;
+  background-color: #ddfdd2; }
+  @media screen and (max-width: 768px) {
+    #mainUsefulPhrasesAdvanced {
+      height: 4450px !important; } }
+  @media screen and (max-width: 425px) {
+    #mainUsefulPhrasesAdvanced {
+      height: 4450px !important; } }
+  @media screen and (max-width: 375px) {
+    #mainUsefulPhrasesAdvanced {
+      height: 3900px !important; } }
+  @media screen and (max-width: 320px) {
+    #mainUsefulPhrasesAdvanced {
+      height: 3550px !important; } }
+  #mainUsefulPhrasesAdvanced div div {
+    background-color: #ddfdd2; }
+  #mainUsefulPhrasesAdvanced .carruseles {
+    margin: 0; }
+    @media screen and (max-width: 768px) {
+      #mainUsefulPhrasesAdvanced .carruseles {
+        padding: 0px 0px !important; } }
+    @media screen and (max-width: 425px) {
+      #mainUsefulPhrasesAdvanced .carruseles {
+        padding: 0px 0px !important; } }
+    @media screen and (max-width: 375px) {
+      #mainUsefulPhrasesAdvanced .carruseles {
+        padding: 0px 0px !important; } }
+    @media screen and (max-width: 320px) {
+      #mainUsefulPhrasesAdvanced .carruseles {
+        padding: 0px 0px !important; } }
+    #mainUsefulPhrasesAdvanced .carruseles .col {
+      margin-bottom: 100px; }
+      @media screen and (max-width: 768px) {
+        #mainUsefulPhrasesAdvanced .carruseles .col {
+          margin-bottom: 120px !important; } }
+      @media screen and (max-width: 425px) {
+        #mainUsefulPhrasesAdvanced .carruseles .col {
+          margin-bottom: 120px !important; } }
+      @media screen and (max-width: 375px) {
+        #mainUsefulPhrasesAdvanced .carruseles .col {
+          margin-bottom: 120px !important; } }
+      @media screen and (max-width: 320px) {
+        #mainUsefulPhrasesAdvanced .carruseles .col {
+          margin-bottom: 120px !important; } }
+      #mainUsefulPhrasesAdvanced .carruseles .col .container {
+        background-color: #5015bd;
+        width: 600px;
+        height: 350px;
+        padding: 10px;
+        border-radius: 5px; }
+        @media screen and (max-width: 768px) {
+          #mainUsefulPhrasesAdvanced .carruseles .col .container {
+            width: 440px !important;
+            height: 257px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        @media screen and (max-width: 425px) {
+          #mainUsefulPhrasesAdvanced .carruseles .col .container {
+            width: 390px !important;
+            height: 228px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        @media screen and (max-width: 375px) {
+          #mainUsefulPhrasesAdvanced .carruseles .col .container {
+            width: 340px !important;
+            height: 199px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        @media screen and (max-width: 320px) {
+          #mainUsefulPhrasesAdvanced .carruseles .col .container {
+            width: 280px !important;
+            height: 163px !important;
+            padding: 3px !important;
+            border-radius: 5px !important; } }
+        #mainUsefulPhrasesAdvanced .carruseles .col .container .menu {
+          text-align: center;
+          margin-left: 350px; }
+          @media screen and (max-width: 768px) {
+            #mainUsefulPhrasesAdvanced .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 55px !important; } }
+          @media screen and (max-width: 425px) {
+            #mainUsefulPhrasesAdvanced .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 35px !important; } }
+          @media screen and (max-width: 375px) {
+            #mainUsefulPhrasesAdvanced .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 35px !important; } }
+          @media screen and (max-width: 320px) {
+            #mainUsefulPhrasesAdvanced .carruseles .col .container .menu {
+              margin: 0 !important;
+              padding-left: 0 !important;
+              margin-top: 30px !important; } }
+          #mainUsefulPhrasesAdvanced .carruseles .col .container .menu li {
+            display: inline-block;
+            text-align: center; }
+            #mainUsefulPhrasesAdvanced .carruseles .col .container .menu li a {
+              display: inline-block;
+              color: #a4ffa1;
+              text-decoration: none;
+              background-color: #5015bd;
+              padding: 5px;
+              width: 35px;
+              height: 35px;
+              font-size: 18px;
+              font-family: "Comic Neue", cursive;
+              border-radius: 100%; }
+              @media screen and (max-width: 425px) {
+                #mainUsefulPhrasesAdvanced .carruseles .col .container .menu li a {
+                  padding: 4px;
+                  width: 32px;
+                  height: 32px;
+                  font-size: 17px;
+                  margin-top: 10px; } }
+              @media screen and (max-width: 375px) {
+                #mainUsefulPhrasesAdvanced .carruseles .col .container .menu li a {
+                  padding: 4px;
+                  width: 30px;
+                  height: 30px;
+                  font-size: 16px;
+                  margin-top: 10px; } }
+              @media screen and (max-width: 320px) {
+                #mainUsefulPhrasesAdvanced .carruseles .col .container .menu li a {
+                  padding: 4px;
+                  width: 27px;
+                  height: 27px;
+                  font-size: 14px; } }
+              #mainUsefulPhrasesAdvanced .carruseles .col .container .menu li a:hover {
+                background-color: #a4ffa1;
+                color: #5015bd; }
+        #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider {
+          position: relative;
+          width: 600px;
+          height: 350px; }
+          @media screen and (max-width: 768px) {
+            #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider {
+              width: 440px !important;
+              height: 257px !important; } }
+          @media screen and (max-width: 425px) {
+            #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider {
+              width: 390px !important;
+              height: 228px !important; } }
+          @media screen and (max-width: 375px) {
+            #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider {
+              width: 340px !important;
+              height: 199px !important; } }
+          @media screen and (max-width: 320px) {
+            #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider {
+              width: 280px !important;
+              height: 163px !important; } }
+          #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider li {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            width: inherit;
+            height: inherit;
+            transition: opacity .5s; }
+            #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider li audio {
+              width: 280px;
+              height: 40px;
+              margin-top: 15px; }
+              @media screen and (max-width: 768px) {
+                #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider li audio {
+                  width: 440px;
+                  margin-top: 10px !important; } }
+              @media screen and (max-width: 425px) {
+                #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider li audio {
+                  width: 390px;
+                  height: 38px !important;
+                  margin-top: 4px !important; } }
+              @media screen and (max-width: 375px) {
+                #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider li audio {
+                  width: 340px;
+                  height: 35px !important;
+                  margin-top: 3px !important; } }
+              @media screen and (max-width: 320px) {
+                #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider li audio {
+                  width: 280px !important;
+                  height: 25px !important;
+                  margin-top: 1px !important; } }
+          #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider li:first-child {
+            opacity: 1; }
+          #mainUsefulPhrasesAdvanced .carruseles .col .container ul.slider li:target {
+            opacity: 1; }
+        #mainUsefulPhrasesAdvanced .carruseles .col .container ul li {
+          margin: 0;
+          padding: 0;
+          list-style: none; }
+      #mainUsefulPhrasesAdvanced .carruseles .col img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 5px; }
+        @media screen and (max-width: 768px) {
+          #mainUsefulPhrasesAdvanced .carruseles .col img {
+            width: 440px !important;
+            height: 257px !important;
+            margin-left: 1px !important; } }
+        @media screen and (max-width: 425px) {
+          #mainUsefulPhrasesAdvanced .carruseles .col img {
+            width: 390px !important;
+            height: 228px !important;
+            margin-left: 1px !important; } }
+        @media screen and (max-width: 375px) {
+          #mainUsefulPhrasesAdvanced .carruseles .col img {
+            width: 340px !important;
+            height: 199px !important;
+            margin-left: 1px !important; } }
+        @media screen and (max-width: 320px) {
+          #mainUsefulPhrasesAdvanced .carruseles .col img {
+            width: 280px !important;
+            height: 163px !important;
+            margin-left: 1px !important; } }
+
+@media screen and (max-width: 768px) {
+  .Error404 {
+    height: 185% !important; } }
+
+@media screen and (max-width: 425px) {
+  .Error404 {
+    height: 165% !important; } }
+
+@media screen and (max-width: 375px) {
+  .Error404 {
+    height: 145% !important; } }
+
+@media screen and (max-width: 320px) {
+  .Error404 {
+    height: 120% !important; } }
+
+footer {
+  height: 25vh;
+  width: 100vw;
+  background-color: #5015bd;
+  bottom: 0; }
+  @media screen and (max-width: 320px) {
+    footer {
+      height: 25vh; } }
+  footer div .btn {
+    background-color: #a4ffa1 !important;
+    color: #5015bd !important;
+    margin: 15px !important;
+    margin-left: 620px !important;
+    font-family: "Comic Neue", cursive !important;
+    border: none !important; }
+    footer div .btn:hover {
+      background-color: #888dda !important; }
+    @media screen and (max-width: 768px) {
+      footer div .btn {
+        margin-left: 310px !important; } }
+    @media screen and (max-width: 425px) {
+      footer div .btn {
+        margin-left: 155px !important; } }
+    @media screen and (max-width: 375px) {
+      footer div .btn {
+        margin-left: 130px !important; } }
+    @media screen and (max-width: 320px) {
+      footer div .btn {
+        margin-left: 105px !important; } }
+  @media screen and (max-width: 320px) {
+    footer div {
+      width: 320px;
+      height: 30px; } }
+  @media screen and (max-width: 320px) {
+    footer div {
+      width: 320px;
+      height: 35px; } }
+  footer div p {
+    padding-top: 45px !important;
+    color: white !important;
+    font-size: 15px !important;
+    margin-top: 25px;
+    font-family: "Comic Neue", cursive;
+    text-align: center; }
+
+.Primerafila div h3 {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 30px;
+  color: #5015bd;
+  font-family: "Archivo Black", sans-serif; }
+  @media screen and (max-width: 425px) {
+    .Primerafila div h3 {
+      margin-top: 15px; } }
+  @media screen and (max-width: 375px) {
+    .Primerafila div h3 {
+      margin-top: 15px; } }
+  @media screen and (max-width: 320px) {
+    .Primerafila div h3 {
+      font-size: 35px;
+      margin-top: 15px; } }
+
+.Primerafila div h6 {
+  margin: 50px;
+  margin-top: 10px;
+  text-align: justify;
+  color: #7a52c4;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px; }
+  @media screen and (max-width: 425px) {
+    .Primerafila div h6 {
+      font-size: 20px;
+      margin: 15px;
+      margin-top: 10px;
+      text-align: start; } }
+  @media screen and (max-width: 375px) {
+    .Primerafila div h6 {
+      font-size: 18px;
+      margin: 15px;
+      margin-top: 10px;
+      text-align: start; } }
+  @media screen and (max-width: 320px) {
+    .Primerafila div h6 {
+      font-size: 15px;
+      margin: 10px;
+      margin-top: 10px;
+      text-align: start; } }
+
+.Primerafila div p {
+  margin: 10px;
+  text-align: center;
+  color: #8b33dd;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 25px; }
+
+.Segundafila div h3 {
+  padding-left: 55px;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #5015bd;
+  font-family: "Archivo Black", sans-serif;
+  text-align: start; }
+  @media screen and (max-width: 425px) {
+    .Segundafila div h3 {
+      padding-left: 20px !important;
+      font-size: 28px;
+      margin-top: 10px;
+      text-align: start; } }
+  @media screen and (max-width: 375px) {
+    .Segundafila div h3 {
+      padding-left: 15px !important;
+      font-size: 25px;
+      margin-top: 10px;
+      text-align: start; } }
+  @media screen and (max-width: 320px) {
+    .Segundafila div h3 {
+      padding-left: 10px !important;
+      font-size: 20px;
+      margin-top: 10px;
+      text-align: start; } }
+
+.Segundafila div h6 {
+  margin: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #7a52c4;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+  text-align: justify; }
+  @media screen and (max-width: 425px) {
+    .Segundafila div h6 {
+      font-size: 20px;
+      margin: 15px;
+      margin-top: 15px;
+      letter-spacing: none !important;
+      text-align: start;
+      margin-bottom: 10px !important; } }
+  @media screen and (max-width: 375px) {
+    .Segundafila div h6 {
+      font-size: 15px;
+      margin: 18px;
+      margin-top: 15px;
+      letter-spacing: none !important;
+      text-align: start;
+      margin-bottom: 10px !important; } }
+  @media screen and (max-width: 320px) {
+    .Segundafila div h6 {
+      font-size: 15px;
+      margin: 10px;
+      margin-top: 15px;
+      letter-spacing: none !important;
+      text-align: start;
+      margin-bottom: 10px !important; } }
+
+.TerceraFila {
+  margin: 0; }
+  .TerceraFila div h3 {
+    font-size: 45px;
+    margin-top: 30px;
+    text-align: right;
+    color: #8b33dd;
+    font-family: "Archivo Black", sans-serif; }
+    @media screen and (max-width: 768px) {
+      .TerceraFila div h3 {
+        font-size: 40px;
+        margin-top: 10px;
+        text-align: center; } }
+    @media screen and (max-width: 425px) {
+      .TerceraFila div h3 {
+        font-size: 40px;
+        margin-top: 10px;
+        text-align: center; } }
+    @media screen and (max-width: 375px) {
+      .TerceraFila div h3 {
+        font-size: 35px;
+        margin-top: 10px;
+        text-align: center; } }
+    @media screen and (max-width: 320px) {
+      .TerceraFila div h3 {
+        font-size: 28px;
+        margin-top: 10px;
+        text-align: center; } }
+  .TerceraFila div img {
+    margin-bottom: 30px;
+    width: 120px;
+    height: 120px; }
+    @media screen and (max-width: 768px) {
+      .TerceraFila div img {
+        width: 120px !important;
+        height: 120px !important;
+        margin: 0 !important;
+        margin-top: 15px !important;
+        margin-bottom: 10px !important; } }
+    @media screen and (max-width: 425px) {
+      .TerceraFila div img {
+        width: 110px !important;
+        height: 110px !important;
+        margin: 0 !important;
+        margin-top: 15px !important;
+        margin-bottom: 10px !important; } }
+    @media screen and (max-width: 375px) {
+      .TerceraFila div img {
+        width: 110px !important;
+        height: 110px !important;
+        margin: 0 !important;
+        margin-top: 15px !important;
+        margin-bottom: 10px !important; } }
+    @media screen and (max-width: 320px) {
+      .TerceraFila div img {
+        width: 80px !important;
+        height: 80px !important;
+        margin: 0 !important;
+        margin-bottom: 10px !important; } }
+
+.SeAccidental {
+  margin: 0; }
+  .SeAccidental h6 {
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #7a52c4;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    text-align: start; }
+    @media screen and (max-width: 425px) {
+      .SeAccidental h6 {
+        font-size: 20px;
+        margin: 15px;
+        margin-top: 15px;
+        letter-spacing: none !important;
+        text-align: start;
+        margin-bottom: 10px !important; } }
+    @media screen and (max-width: 375px) {
+      .SeAccidental h6 {
+        font-size: 15px;
+        margin: 18px;
+        margin-top: 15px;
+        letter-spacing: none !important;
+        text-align: start;
+        margin-bottom: 10px !important; } }
+    @media screen and (max-width: 320px) {
+      .SeAccidental h6 {
+        font-size: 15px;
+        margin: 10px;
+        margin-top: 15px;
+        letter-spacing: none !important;
+        text-align: start;
+        margin-bottom: 10px !important; } }
+
+p {
+  margin: 10px;
+  text-align: center;
+  color: #8b33dd;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 25px; }
+
+h3 {
+  padding-left: 55px;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #5015bd;
+  font-family: "Archivo Black", sans-serif;
+  text-align: start; }
+  @media screen and (max-width: 425px) {
+    h3 {
+      padding-left: 30px !important;
+      padding-left: 10px;
+      font-size: 28px;
+      margin-top: 10px;
+      text-align: start; } }
+  @media screen and (max-width: 375px) {
+    h3 {
+      padding-left: 25px !important;
+      padding-left: 10px;
+      font-size: 25px;
+      margin-top: 10px;
+      text-align: start; } }
+  @media screen and (max-width: 320px) {
+    h3 {
+      padding-left: 20px !important;
+      font-size: 20px;
+      margin-top: 10px;
+      text-align: center; } }
+
+#bannerflashcardMaker {
+  background-color: #a4ffa1;
+  border-radius: 5px; }
+  #bannerflashcardMaker #header h1 {
+    padding: 10px;
+    margin: auto;
+    text-align: center; }
+    @media screen and (max-width: 425px) {
+      #bannerflashcardMaker #header h1 {
+        font-size: 32px; } }
+    @media screen and (max-width: 375px) {
+      #bannerflashcardMaker #header h1 {
+        font-size: 30px; } }
+    @media screen and (max-width: 320px) {
+      #bannerflashcardMaker #header h1 {
+        font-size: 25px; } }
+  #bannerflashcardMaker #header .botonesNav {
+    margin: auto; }
+    @media screen and (max-width: 768px) {
+      #bannerflashcardMaker #header .botonesNav {
+        padding-bottom: 10px;
+        margin-left: 250px; } }
+    @media screen and (max-width: 425px) {
+      #bannerflashcardMaker #header .botonesNav {
+        padding-bottom: 10px;
+        margin-left: 110px; } }
+    @media screen and (max-width: 375px) {
+      #bannerflashcardMaker #header .botonesNav {
+        padding-bottom: 10px;
+        margin-left: 100px; } }
+    @media screen and (max-width: 320px) {
+      #bannerflashcardMaker #header .botonesNav {
+        padding-bottom: 10px;
+        margin-left: 70px; } }
+  #bannerflashcardMaker #header button {
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #5015bd;
+    border-radius: 5px;
+    background: #ddfdd2;
+    color: #5015bd;
+    font-family: "Comic Neue", cursive; }
+    @media screen and (max-width: 425px) {
+      #bannerflashcardMaker #header button {
+        font-size: 15px;
+        padding: 5px; } }
+    @media screen and (max-width: 375px) {
+      #bannerflashcardMaker #header button {
+        font-size: 12px;
+        padding: 5px; } }
+    @media screen and (max-width: 320px) {
+      #bannerflashcardMaker #header button {
+        font-size: 12px;
+        padding: 4px; } }
+    #bannerflashcardMaker #header button:hover {
+      background-color: #efeaff96; }
+
+#emptySpace {
+  background-color: #ddfdd2; }
+
+#contentFlashcardMaker {
+  background-color: #ddfdd2; }
+  @media screen and (max-width: 768px) {
+    #contentFlashcardMaker #sectionBox {
+      height: 390px; } }
+  @media screen and (max-width: 425px) {
+    #contentFlashcardMaker #sectionBox {
+      height: 370px; } }
+  @media screen and (max-width: 375px) {
+    #contentFlashcardMaker #sectionBox {
+      height: 340px; } }
+  @media screen and (max-width: 320px) {
+    #contentFlashcardMaker #sectionBox {
+      height: 330px; } }
+  #contentFlashcardMaker #create_card {
+    display: none;
+    width: 380px;
+    margin: auto;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    background: #d3fcc6;
+    box-shadow: 0px 2px 4px 0px rgba(39, 6, 66, 0.459); }
+    @media screen and (max-width: 768px) {
+      #contentFlashcardMaker #create_card {
+        margin-left: 135px; } }
+    @media screen and (max-width: 425px) {
+      #contentFlashcardMaker #create_card {
+        padding: 15px;
+        margin-left: 12px !important;
+        width: 325px; } }
+    @media screen and (max-width: 375px) {
+      #contentFlashcardMaker #create_card {
+        padding: 10px;
+        margin-left: 10px !important;
+        width: 275px; } }
+    @media screen and (max-width: 320px) {
+      #contentFlashcardMaker #create_card {
+        padding: 10px;
+        margin-left: 0px !important;
+        width: 250px; } }
+  #contentFlashcardMaker select {
+    border: none;
+    height: 20px;
+    border-radius: 5px;
+    margin: auto;
+    background: #d3fcc6;
+    color: #5015bd;
+    font-family: "Comic Neue", cursive;
+    font-size: 18px; }
+    #contentFlashcardMaker select:focus {
+      outline: none; }
+  #contentFlashcardMaker label {
+    font-family: "Comic Neue", cursive;
+    color: #5015bd;
+    font-size: 20px; }
+  #contentFlashcardMaker textarea {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    border-radius: 5px;
+    font-family: "Comic Neue", cursive;
+    color: #5015bd;
+    border: 1px solid #d3fcc6;
+    resize: none; }
+    @media screen and (max-width: 375px) {
+      #contentFlashcardMaker textarea {
+        height: 45px; } }
+    @media screen and (max-width: 320px) {
+      #contentFlashcardMaker textarea {
+        height: 45px; } }
+    #contentFlashcardMaker textarea:focus {
+      outline: #8ef88a; }
+  #contentFlashcardMaker button {
+    width: fit-content;
+    margin-top: 20px;
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #5015bd;
+    border-radius: 5px;
+    background: #5015bd;
+    color: #ddfdd2;
+    font-family: "Comic Neue", cursive; }
+    @media screen and (max-width: 425px) {
+      #contentFlashcardMaker button {
+        margin-top: 10px; } }
+    @media screen and (max-width: 375px) {
+      #contentFlashcardMaker button {
+        margin-top: 10px;
+        padding: 6px;
+        font-size: 15px; } }
+    @media screen and (max-width: 320px) {
+      #contentFlashcardMaker button {
+        margin-top: 10px;
+        padding: 6px;
+        font-size: 13px; } }
+    #contentFlashcardMaker button:hover {
+      background-color: #a4ffa1;
+      color: #5015bd; }
+
+#flashcards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 0px 10px; }
+  #flashcards .flashcard {
+    position: relative;
+    width: 270px;
+    height: 290px;
+    word-wrap: break-word;
+    margin: 10px;
+    background: #f8fdf7c9;
+    box-shadow: 0px 2px 4px 0px rgba(39, 6, 66, 0.459);
+    cursor: pointer; }
+    #flashcards .flashcard h2 {
+      font-size: 18px;
+      letter-spacing: 2px; }
+
+@media screen and (max-width: 425px) {
+  main div h2 {
+    padding-top: 10px !important;
+    font-size: 25px !important; } }
+
+#bannerLanguageTranslator {
+  background-color: #a4ffa1;
+  padding: 5px;
+  border-radius: 5px; }
+  #bannerLanguageTranslator h1 {
+    text-align: center;
+    margin: auto; }
+
+#mainLanguageTranslator {
+  background-color: #ddfdd2;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  #mainLanguageTranslator .container {
+    width: 800px;
+    height: 435px;
+    background: #d3fcc6;
+    box-shadow: 0px 2px 4px 0px rgba(39, 6, 66, 0.459);
+    border-radius: 5px; }
+    #mainLanguageTranslator .container .header {
+      margin: auto;
+      height: 65px; }
+      #mainLanguageTranslator .container .header select {
+        border: none;
+        margin: auto;
+        background: #d3fcc6;
+        color: #5015bd; }
+      #mainLanguageTranslator .container .header button {
+        border: none;
+        margin: auto;
+        background-color: #d3fcc6;
+        color: #5015bd; }
+    #mainLanguageTranslator .container .containerTextArea textarea {
+      margin: 20px;
+      padding: 15px;
+      width: 360px;
+      height: 270px;
+      background: #f8fdf7c9;
+      border: solid 2px #f8fdf7c9;
+      box-shadow: 0px 2px 4px 0px rgba(39, 6, 66, 0.459);
+      font-family: "Comic Neue", cursive;
+      font-size: 20px;
+      color: #312931; }
+      #mainLanguageTranslator .container .containerTextArea textarea:focus {
+        outline: #a4ffa1; }
+    #mainLanguageTranslator .container .containerTextArea .translate {
+      border: none;
+      width: 130px;
+      height: 40px;
+      margin-left: 320px;
+      border-radius: 3px;
+      background-color: #5015bd;
+      color: #a4ffa1;
+      font-family: "Comic Neue", cursive; }
+      #mainLanguageTranslator .container .containerTextArea .translate:hover {
+        background-color: #a4ffa1;
+        color: #5015bd; }

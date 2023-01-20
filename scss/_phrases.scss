@@ -1,0 +1,350 @@
+// variables 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+$navfooter-font:'Comic Neue', cursive;
+$content-font:'Archivo Black', sans-serif;
+$colorFooterNav: #5015bd;
+$lightpurpleColor: #888dda;
+$darkgreen:#a4ffa1;
+$colorTextomainphrases: #7a52c4;
+$textomainresaltado:#8b33dd;
+.Primerafila {
+  div{
+    h3{
+      text-align: center;
+      font-size: 45px;
+      margin-top: 30px;
+      color:$colorFooterNav;
+      font-family: $content-font;
+    
+      
+       //MEDIAQUERYS
+       @include tablet {
+                
+            
+      }
+        @include mobile425 {
+         
+          margin-top: 15px;
+      }
+        @include mobile375 {
+         
+          margin-top: 15px;
+          
+      }
+         @include mobile {
+          font-size: 35px;
+          margin-top: 15px;
+         
+      }
+      
+    }
+    h6 { //texto de bienvenida
+      margin: 50px;
+      margin-top: 10px;
+      text-align: justify;
+      color:$colorTextomainphrases;
+      font-family: $content-font;
+      font-size: 20px;
+             //MEDIAQUERYS
+             @include tablet {
+                
+            
+            }
+              @include mobile425 {
+                font-size: 20px;
+                margin: 15px;
+                margin-top: 10px;
+                text-align: start;
+                
+            }
+              @include mobile375 {
+                font-size: 18px;
+                margin: 15px;
+                margin-top: 10px;
+                text-align: start;
+                
+            }
+               @include mobile {
+                font-size: 15px;
+                margin: 10px;
+                margin-top: 10px;
+                text-align: start;
+              
+               
+            }
+      
+    }
+    p {
+       margin: 10px;
+      text-align: center;
+      color:$textomainresaltado;
+      font-family: $content-font;
+      font-size: 25px;
+
+    }
+
+  }
+
+
+}
+
+// SEGUNDA FILA HOW DOES IT WORK?
+.Segundafila{
+  div{
+    h3{
+      padding-left: 55px;
+      font-size: 30px;
+      margin-top: 10px;
+      color:$colorFooterNav;
+      font-family: $content-font;   
+      text-align: start;
+                   //MEDIAQUERYS
+                   @include tablet {
+                
+            
+                  }
+                    @include mobile425 {
+                      padding-left:20px !important;
+                      font-size: 28px;
+                      margin-top: 10px; 
+                      text-align: start;
+                      
+                  }
+                    @include mobile375 {
+                      padding-left:15px !important;
+                      font-size: 25px;
+                      margin-top: 10px; 
+                      text-align: start;
+                      
+                  }
+                     @include mobile {
+                      padding-left:10px !important;
+                      font-size: 20px;
+                      margin-top: 10px; 
+                      text-align: start;
+                    
+                     
+                  }
+    }
+    h6{ //TEXTO
+      margin: 50px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      color:$colorTextomainphrases;
+      font-family: $content-font;
+      font-size: 20px;
+      text-align: justify;
+                   //MEDIAQUERYS
+                   @include tablet {
+                
+            
+                  }
+                    @include mobile425 {
+                      font-size: 20px;
+                      margin: 15px;
+                      margin-top: 15px;
+                      letter-spacing:none !important;
+                      text-align: start;
+                      margin-bottom: 10px !important;
+                      
+                  }
+                    @include mobile375 {
+                      font-size: 15px;
+                      margin: 18px;
+                      margin-top: 15px;
+                      letter-spacing:none !important;
+                      text-align: start;
+                      margin-bottom: 10px !important;
+                      
+                  }
+                     @include mobile {
+                      font-size: 15px;
+                      margin: 10px;
+                      margin-top: 15px;
+                      letter-spacing:none !important;
+                      text-align: start;
+                      margin-bottom: 10px !important;
+                    
+                     
+                  }
+
+    }
+  }
+}
+
+//TERCERAFILA READY?LETS DO IT
+.TerceraFila{
+  margin: 0;
+div{
+ 
+  h3{   //TEXTO
+    font-size: 45px;
+    margin-top: 30px;
+    text-align: right;
+    color:$textomainresaltado;
+    font-family: $content-font; 
+    //MEDIAQUERYS
+    @include tablet {
+      font-size: 40px;
+      margin-top: 10px;
+      text-align: center;
+                
+            
+    }
+      @include mobile425 {
+        font-size: 40px;
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+      @include mobile375 {
+        font-size: 35px;
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+       @include mobile {
+        font-size: 28px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+
+
+  }
+  img { //FLECHA QUE APUNTA HACIA LAS FRASES
+    margin-bottom: 30px;
+    width: 120px;
+    height: 120px;
+        //MEDIAQUERYS
+        @include tablet {
+          width:120px !important;
+          height:120px !important;
+          margin: 0 !important;
+          margin-top: 15px !important;
+          margin-bottom: 10px !important;
+       
+        }
+          @include mobile425 {
+            width:110px !important;
+            height:110px !important;
+            margin: 0 !important;
+            margin-top: 15px !important;
+            margin-bottom: 10px !important;
+            
+        }
+          @include mobile375 {
+            width:110px !important;
+            height:110px !important;
+            margin: 0 !important;
+            margin-top: 15px !important;
+            margin-bottom: 10px !important;
+            
+        }
+           @include mobile {
+           width:80px !important;
+           height:80px !important;
+           margin: 0 !important;
+           margin-bottom: 10px !important;
+        }
+  }
+}
+
+}
+
+//----------SE ACCIDENTAL-------------
+.SeAccidental{
+  margin: 0;
+  
+    h6{ //TEXTO
+      margin: 50px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      color:$colorTextomainphrases;
+      font-family: $content-font;
+      font-size: 20px;
+      text-align: start;
+                   //MEDIAQUERYS
+                   @include tablet {
+                
+            
+                  }
+                    @include mobile425 {
+                      font-size: 20px;
+                      margin: 15px;
+                      margin-top: 15px;
+                      letter-spacing:none !important;
+                      text-align: start;
+                      margin-bottom: 10px !important;
+                      
+                  }
+                    @include mobile375 {
+                      font-size: 15px;
+                      margin: 18px;
+                      margin-top: 15px;
+                      letter-spacing:none !important;
+                      text-align: start;
+                      margin-bottom: 10px !important;
+                      
+                  }
+                     @include mobile {
+                      font-size: 15px;
+                      margin: 10px;
+                      margin-top: 15px;
+                      letter-spacing:none !important;
+                      text-align: start;
+                      margin-bottom: 10px !important;
+                    
+                     
+                  }
+
+    }
+
+  }
+  p{
+    margin: 10px;
+    text-align: center;
+    color:$textomainresaltado;
+    font-family: $content-font;
+    font-size: 25px;
+   }
+
+  h3{
+    padding-left: 55px;
+    font-size: 30px;
+    margin-top: 10px;
+    color:$colorFooterNav;
+    font-family: $content-font;   
+    text-align: start;
+                 //MEDIAQUERYS
+                 @include tablet {
+              
+          
+                }
+                  @include mobile425 {
+                    padding-left:30px !important;
+                    padding-left:10px;
+                    font-size: 28px;
+                    margin-top: 10px; 
+                    text-align: start;
+                    
+                }
+                  @include mobile375 {
+                    padding-left:25px !important;
+                    padding-left:10px;
+                    font-size: 25px;
+                    margin-top: 10px; 
+                    text-align: start;
+                    
+                }
+                   @include mobile {
+                    padding-left:20px !important;
+                    font-size: 20px;
+                    margin-top: 10px; 
+                    text-align: center;
+                  
+                   
+                }
+  }
+ 
+

@@ -1,0 +1,295 @@
+// variables 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+$welcome-font: 'Fredoka One', cursive;
+$navfooter-font:'Comic Neue', cursive;
+$content-font:'Archivo Black', sans-serif;
+$colorFooterNav: #5015bd;
+$lightpurpleColor: #888dda;
+$lightgreen: #ddfdd2;
+$darkgreen:#a4ffa1;
+$colorTextomainphrases: #7a52c4;
+$textomainresaltado:#8b33dd;
+
+
+//------banner "Create your own flashcards"------
+#bannerflashcardMaker{
+ background-color: $darkgreen;
+ border-radius: 5px;
+
+  #header{
+    h1{
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        
+       //MEDIAQUERYS
+       @include tablet {                 
+       }
+         @include mobile425 {  
+          font-size:32px ;
+       }
+         @include mobile375 {  
+          font-size:30px ;
+       }
+          @include mobile {
+            font-size:25px ;       
+       }
+    }
+    .botonesNav{
+        margin: auto;
+               //MEDIAQUERYS
+       @include tablet {  
+        padding-bottom: 10px;
+        margin-left: 250px;               
+      }
+        @include mobile425 {  
+          padding-bottom: 10px;
+          margin-left: 110px;
+       
+      }
+        @include mobile375 {  
+          padding-bottom: 10px;
+          margin-left: 100px;
+      
+      }
+         @include mobile {
+           padding-bottom: 10px;
+           margin-left: 70px;
+                 
+      }
+
+    }
+    button{
+        padding: 8px;
+        outline: none;
+        cursor: pointer;
+        border: 1px solid $colorFooterNav;
+        border-radius: 5px;
+        background: $lightgreen;
+        color: $colorFooterNav;
+        font-family: $navfooter-font;
+       //MEDIAQUERYS
+       @include tablet {                 
+      }
+        @include mobile425 {  
+          font-size:15px ;
+           padding: 5px;
+      }
+        @include mobile375 {  
+          font-size:12px ;
+           padding: 5px;
+      }
+         @include mobile {
+           font-size:12px ;
+           padding: 4px;
+                 
+      }
+ 
+
+
+        &:hover{
+            background-color:#efeaff96;
+            
+
+        }
+
+    }
+    
+  }
+}
+//-------Empty space------
+#emptySpace{
+  background-color: $lightgreen;
+}
+// ------ Box 
+
+#contentFlashcardMaker{
+    background-color: $lightgreen;
+    #sectionBox{
+                  //MEDIAQUERYS
+                  @include tablet {  
+                    height: 390px;           
+                   }
+                   @include mobile425 { 
+                    height: 370px;
+        
+                   }
+                   @include mobile375 {  
+                    height: 340px;
+         
+                   }
+                   @include mobile {
+                    height: 330px;
+                               
+                    }
+      
+    }
+
+    
+    #create_card {
+        display: none;
+        width: 380px;
+        margin:auto;
+        padding: 20px;
+        margin-left: 10px;
+        margin-top: 50px;
+        margin-bottom: 200px;
+        background:#d3fcc6;
+        box-shadow: 0px 2px 4px 0px rgba(39, 6, 66, 0.459);
+            //MEDIAQUERYS
+           @include tablet {  
+            margin-left: 135px;               
+           }
+           @include mobile425 { 
+            padding: 15px;
+            margin-left: 12px !important; 
+            width: 325px;
+
+           }
+           @include mobile375 {  
+            padding: 10px;
+            margin-left: 10px !important;
+            width: 275px;
+ 
+           }
+           @include mobile {
+            padding: 10px;
+            margin-left: 0px !important; 
+            width: 250px;
+                       
+            }
+      }
+      select{
+        border: none;
+        height: 20px;
+        border-radius: 5px;
+        margin: auto;
+        background:#d3fcc6;
+        color: $colorFooterNav;
+        font-family: $navfooter-font;
+        font-size: 18px;
+        
+        &:focus{
+          outline: none;
+        }
+
+    }
+      label{
+        font-family: $navfooter-font;
+        color: $colorFooterNav;
+        font-size: 20px;
+        
+      }
+      textarea{
+        width: 100%;
+        height: 60px;
+        margin: auto;
+        border-radius: 5px;
+        font-family: $navfooter-font;
+        color: $colorFooterNav;
+        border: 1px solid #d3fcc6;
+        resize: none; //Especifica si un elemento puede ser redimensionado por el usuario y, en caso afirmativo, a lo largo de qué eje o ejes.
+                    //MEDIAQUERYS
+                    @include tablet {  
+             
+                     }
+                     @include mobile425 { 
+ 
+                     }
+                     @include mobile375 {  
+                      height: 45px;
+
+                     }
+                     @include mobile {
+                      height: 45px;
+                      }
+        &:focus{
+            outline:#8ef88a;
+        }
+        
+      }
+
+      button{
+        width: fit-content;
+        margin-top: 20px;
+        padding: 8px;
+        outline: none;
+        cursor: pointer;
+        border: 1px solid $colorFooterNav;
+        border-radius: 5px;
+        background: $colorFooterNav;
+        color: $lightgreen;
+        font-family: $navfooter-font;
+                            //MEDIAQUERYS
+                            @include tablet {  
+             
+                            }
+                            @include mobile425 { 
+                              margin-top: 10px;
+        
+                            }
+                            @include mobile375 {  
+                              margin-top: 10px;
+                              padding: 6px;
+                              font-size: 15px;
+                              
+                            }
+                            @include mobile {
+                              margin-top: 10px;
+                              padding: 6px;
+                              font-size: 13px;
+                             }
+        
+        &:hover {
+            background-color:$darkgreen;
+            color: $colorFooterNav;
+            
+        }
+
+    }
+      
+}
+
+// Columna de la derecha donde aparecerán las flashcards que crea el usuario
+
+#flashcards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 0px 10px;
+  .flashcard{
+    position: relative;
+    width: 270px;
+    height: 290px;
+    word-wrap: break-word; // para que pase a la linea de abajo
+    margin: 10px; 
+    background: #f8fdf7c9;
+    box-shadow: 0px 2px 4px 0px rgba(39, 6, 66, 0.459);
+    cursor: pointer;
+       h2 {
+       font-size: 18px;
+       letter-spacing: 2px;
+      }
+
+      
+
+  }
+}
+
+
+//mediaquerys del elemento creado con DOM
+main div h2{
+  @include mobile425 { 
+    padding-top: 10px !important;
+    font-size: 25px!important;
+
+  }
+}
+
+
+
+

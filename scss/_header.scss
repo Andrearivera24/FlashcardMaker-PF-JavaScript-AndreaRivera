@@ -1,0 +1,143 @@
+
+// variables 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+$navfooter-font:'Comic Neue', cursive;
+$colorFooterNav: #5015bd;
+$lightpurpleColor: #888dda;
+// HEADER
+.header320 {
+    height: 10vh;
+    width: 100vw;
+    @include mobile {
+        
+        height: 56px;
+       }
+    @include tablet {
+        
+        height: 56px;
+       }
+
+
+    .bg-personalizado {
+        background-color:$colorFooterNav; 
+ 
+    
+      
+        .container-fluid {
+            .navbar-toggler{
+                @include mobile {
+                    margin-right: 25px;
+                   }
+                
+
+            }
+           
+            .logoHeader img {
+                width: 40px;
+                height: 40px;
+                border-radius: 80%;
+                margin-left: 100px;
+                margin-right: 50px;
+
+                @include mobile {
+                 margin:0;
+                }
+                @include tablet {
+                 margin:0;
+                   }
+
+            }
+            
+             a {
+                font-family: $navfooter-font;
+                font-size: 20px;
+                @include mobile {
+                    margin-right: 100px;
+                   }
+               
+             }
+    
+            #navbarNavDropdown{
+                .bg-personalizado2{
+                    background-color: $lightpurpleColor;
+                }
+         }
+    
+    
+     }
+    
+
+    }
+     
+
+}
+
+
+
+//HEADER DE MOST USED VERBS BEGINNER INTER Y ADV
+.headerCards {
+    height: 10vh;
+    width: 100vw;
+   
+    
+    @include mobile {
+        height: 50px;
+        
+       }
+
+
+    .bg-personalizado {
+        background-color:$colorFooterNav; 
+        z-index: 1;
+ 
+    
+      
+        .container-fluid {
+            .navbar-toggler{
+                @include mobile {
+                    margin-right: 25px;
+                   }
+                @include tablet {
+                    margin-right: 2px;
+                   }
+
+            }
+            .logoHeader img {
+                width: 40px;
+                height: 40px;
+                border-radius: 80%;
+                margin-left: 100px;
+                margin-right: 50px;
+
+                @include mobile {
+                 margin:0;
+                }
+                @include tablet {
+                    margin:0;
+                   }
+
+            }
+            
+             a {
+                font-family: $navfooter-font;
+                font-size: 20px;
+                @include mobile {
+                    margin-right: 100px;
+                   }
+               
+             }
+    
+            #navbarNavDropdown{
+                .bg-personalizado2{
+                    background-color:$lightpurpleColor;
+                }
+         }
+    
+    
+     }
+    
+
+    }
+     
+
+}
